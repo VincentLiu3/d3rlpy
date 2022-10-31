@@ -11,7 +11,7 @@
 pip install numpy
 pip install Cython
 ```
-3. `pip install gym[accept-rom-license]=0.17.2` (I think this version of gym is needed to avoid bugs)
+3. `pip install gym[accept-rom-license]==0.17.2` (I think this version of gym is needed to avoid bugs)
 4. Install Atari stuff
 ```
 pip install atari-py
@@ -28,11 +28,22 @@ pip install git+https://github.com/rail-berkeley/d4rl
 pip install git+https://github.com/takuseno/d4rl-atari
 ```
 
-6. Install the repo itself: `pip install -e .`
-
+6. Install the repo itself: 
+```
+git clone https://github.com/VincentLiu3/d3rlpy
+cd d3rlpy
+pip install -e .
+```
 7. Run example.py (not that I made the dataset smaller in the file just for the example)
 
 ## CC Setup [TODO]
+
+```
+module load python/3.8
+git clone https://github.com/VincentLiu3/d3rlpy
+cd d3rlpy
+python3 -m venv
+```
 
 
 
